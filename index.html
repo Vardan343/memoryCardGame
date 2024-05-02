@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>MEMORY GAME</h2>
+        <div class="game"></div>
+        <button class="reset" onclick="location.reload()">Reset Game</button>
+        <div>
+                   
+        </div>
+    </div>
+    
+    <section id="pre">
+        <div id="themes">
+            <button class="next" onclick="changeGridSize('4X4')">4X4</button>
+            <button class="next" onclick="changeGridSize('6X4')">6X4</button>
+            <button class="next" onclick="changeGridSize('8X4')">8X4</button>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
